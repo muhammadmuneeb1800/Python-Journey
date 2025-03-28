@@ -79,9 +79,38 @@
 #     print("All numbers are equal")
 
 
-a = int(input("Enter number: "))
+# a = int(input("Enter number: "))
 
-if a % 5 == 0:
-    print("The number is divisible by 5")
-else:
-    print("The number is not divisible by 5")
+# if a % 5 == 0:
+#     print("The number is divisible by 5")
+# else:
+#     print("The number is not divisible by 5")
+
+
+# int
+# float
+# complex
+# str
+# bool
+# list
+# tuple
+# set
+# dict
+# None
+
+
+# 123
+# 234.423
+# "muneeb"
+# True / False
+# num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10,10, 11, 12, 13, 14, 15, 16]
+# num = (1, 2, 3, 4, 5, 6, 7, 8, 9)
+# set = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+# {"name": "Muneeb", "age": 25, "city": "Karachi"}
+
+
+i = 1
+
+while 1 => 10:
+    print(i)
+    i += 1
