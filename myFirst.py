@@ -109,8 +109,59 @@
 # {"name": "Muneeb", "age": 25, "city": "Karachi"}
 
 
-i = 1
+# i = 1
 
-while 1 => 10:
-    print(i)
-    i += 1
+# while i <= 10:
+#     print(i)
+#     i += 1
+
+# i, j, k = 0, 0, 0
+# email = input("Enter your email: ")
+# if len(email) >= 6:
+#     if email[0].isalpha():
+#         if ("@" in email) and (email.count("@") == 1):
+#             if (email[-4] == ".") ^ (email[-3] == "."):
+#                 for a in email:
+#                     if a == a.isspace():
+#                         i = 1
+#                     elif a.isalpha():
+#                         if a.isupper():
+#                             k = 1
+#                     elif a.isdigit():
+#                         continue
+#                     elif a == "_" or a == "." or a == "@":
+#                         continue
+#                     else:
+#                         j = 1
+#                 if i == 1 or k == 1 or j == 1:
+#                     print("Wrong Email 5")
+#             else:
+#                 print("Wrong Email 4")
+#         else:
+#             print("Wrong Email 3")
+#     else:
+#         print("Wrong Email 2")
+# else:
+#     print("Wrong Email 1")
+
+
+# import qrcode
+
+# # Create QR code
+# qr = qrcode.QRCode(
+#     version=1,  # Size of the QR Code (1 se 40 tak hoti hai)
+#     error_correction=qrcode.constants.ERROR_CORRECT_L,  # Low error correction
+#     box_size=10,  # Each box (pixel) size
+#     border=4,  # Border size
+# )
+
+# qr.add_data("Hi I'm Muhammad Muneeb")  # Data add karna
+# qr.make(fit=True)  # Automatically adjust size
+
+# # Generate Image
+# img = qr.make_image(fill="black", back_color="white")
+
+# # Save image
+# img.save("Muneeb.png")
+
+# print("QR Code successfully saved as Muneeb.png!")
