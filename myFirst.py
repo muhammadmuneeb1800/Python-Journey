@@ -198,3 +198,18 @@
 #             break
 #     except:
 #         print("Enter a valid number")
+
+import random
+
+chosse = ("r", "p", "s")
+computer = random.choice(chosse)
+
+dic = {"r": "🪨", "p": "📃", "s": "✂️"}
+
+user = input("Rock, Paper & Scissors? (r/p/s) : ").lower()
+if user not in chosse:
+    print("invalid choice")
+print("your choice is ", dic[user])
+print("computer choice is ", dic[computer])
+
+if 
