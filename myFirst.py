@@ -165,3 +165,36 @@
 # img.save("Muneeb.png")
 
 # print("QR Code successfully saved as Muneeb.png!")
+
+
+# def mistake(para1,para2):
+
+# import random
+
+# number = input("Roll the dice? (y/n): ").lower()
+
+# if number == "y":
+#     dice1 = random.randint(1, 10)
+#     dice2 = random.randint(1, 10)
+#     print("you rolled a dice ", dice1, ",", dice2)
+# elif number == "n":
+#     print("Thank you for playing!")
+# else:
+#     print("Invalid Choice")
+
+
+# import random
+
+# randNum = random.randint(1, 20)
+# while True:
+#     try:
+#         userNum = int(input("Guess the number between 1 to 20 : "))
+#         if userNum < randNum:
+#             print("Too low!")
+#         elif userNum > randNum:
+#             print("Too high!")
+#         else:
+#             print("Congratulation, you guess the number")
+#             break
+#     except:
+#         print("Enter a valid number")
